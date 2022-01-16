@@ -1,0 +1,76 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+*{
+   box-sizing: border-box;
+   padding:0px;
+   margin:0px;
+}
+body{
+   
+    background:black;
+}
+
+.search-bar{
+    background:transparent;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#search{
+    width:350px;
+    height:40px;
+    border-radius:30px 60px 30px 45px;
+    text-align: center;
+    border:2px solid black;
+}
+
+#search-btn{
+    position:relative;
+    right: 82px;
+    width:80px;
+    height:38px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 26px;
+    border-top-right-radius: 45px;
+    background-color: rgb(171, 230, 238);
+    color:white;
+    border: none;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-Container{
+    width:700px;
+    height:510px;
+    border-radius: 80px;
+    background-color: white;
+    margin:10px;
+    box-shadow: 5px 0px 0px 40px rgb(56, 55, 55);
+ 
+    
+}
+
+#weather-Symbol{
+    height:200px;
+    border-radius:50px 50px 0px 0px;
+}
+#Temp{
+    height:210px;
+    display:flex;
+    background-color: black; 
+}
+#weather-Information{
+    height:100px;
+}
+#weather-Symbol{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.wi-day-sunny{
+    font-size: 150px;
+}
