@@ -9,6 +9,7 @@ const Temp = () => {
       try {
           const url=`https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&units=metric&appid=54bf5ccb106d95c98863e88b5351604d`;
           const res= await fetch(url);
+          console.log(res);
           const data=await res.json();
           console.log(data);
           const {temp,humidity,pressure}=data.main;
@@ -37,7 +38,7 @@ const Temp = () => {
             <div className="container">
             <div className="weather-Container">
                 <div className="box" id="weather-Symbol">
-                    <i className={`wi wi-day-${data.weathermood}`}></i>
+                    <i className={`wi wi-day-sunny`}></i>
                 </div>
                 <div className="box" id="Temp">
                     <div className="Temp-box1">
