@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 /file/file1.txt
-/test.txt
+test.txt
 
 # testing
 /coverage
